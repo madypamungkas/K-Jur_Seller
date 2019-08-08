@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.komsi.lab.kjurseller">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".DailySaleActivity" />
+        <activity android:name=".GamapayActivity" />
+        <activity android:name=".LocOpenStoreActivity" />
+        <activity android:name=".LocLiveReportLSActivity" />
+        <activity android:name=".LocCloseStoreActivity" />
+        <activity android:name=".ProductOpenStoreActivity" />
+        <activity android:name=".ProductNewStockActivity" />
+        <activity android:name=".ProductLiveReportLSActivity" />
+        <activity android:name=".ReportActivity" />
+        <activity android:name=".SettingsProfilesActivity" />
+        <activity android:name=".SettingsChangePasswordActivity" />
+        <activity android:name=".LiveReportActivity" />
+        <activity android:name=".LocLiveReportUSActivity" />
+        <activity android:name=".ProductLiveReportUSActivity" />
+        <activity android:name=".ProductUpdateStockActivity" />
+        <activity android:name=".ProductLogStockActivity" />
+        <activity android:name=".VerifyEmailActivity" />
+        <activity android:name=".SettingsBankInformationActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".WithdrawActivity" />
+        <activity android:name=".ProductCloseStoreActivity"></activity>
+    </application>
+
+</manifest>
